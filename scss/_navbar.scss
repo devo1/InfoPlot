@@ -12,6 +12,7 @@
     @include heading-font;
   }
   .navbar-brand {
+    @include body-font;
     color: $primary;
     @include script-font;
     &.active,
